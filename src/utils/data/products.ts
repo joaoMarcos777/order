@@ -1,48 +1,48 @@
 const MENU = [
   {
-    title: "Lanche do dia",
+    title: "Daily Special",
     data: [
       {
         id: "1",
         title: "X-React",
         price: 24.9,
         description:
-          "Um hamburger tão bonito que me deu fome enquanto eu fazia esse layout para o projeto...",
+          "A burger so beautiful it made me hungry while I was designing this layout for the project...",
         cover: require("../../assets/products/cover/1.png"),
         thumbnail: require("../../assets/products/thumbnail/1.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Brioche bun;",
+          "2x house blend smash patties (80g each);",
+          "Cheddar cheese;",
+          "Lettuce;",
+          "Tomato;",
+          "Pickles;",
+          "Onion;",
+          "House sauce;",
         ],
       },
     ],
   },
   {
-    title: "Promoções",
+    title: "Promotions",
     data: [
       {
         id: "2",
         title: "X-JavaScript",
         price: 34.9,
         description:
-          "Os ingredientes desse hambúrguer mudam toda semana, então você sempre terá uma surpresa...",
+          "The ingredients of this burger change every week, so you'll always have a surprise...",
         cover: require("../../assets/products/cover/2.png"),
         thumbnail: require("../../assets/products/thumbnail/2.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Brioche bun;",
+          "2x house blend smash patties (80g each);",
+          "Cheddar cheese;",
+          "Lettuce;",
+          "Tomato;",
+          "Pickles;",
+          "Onion;",
+          "House sauce;",
         ],
       },
       {
@@ -50,18 +50,18 @@ const MENU = [
         title: "X-Cobol",
         price: 32.7,
         description:
-          "Aquele hambúrguer que não podemos tirar do cardápio devido aos clientes mais antigos da hamburgueria...",
+          "That burger we can't take off the menu because of the longtime customers of the burger joint...",
         cover: require("../../assets/products/cover/3.png"),
         thumbnail: require("../../assets/products/thumbnail/3.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Brioche bun;",
+          "2x house blend smash patties (80g each);",
+          "Cheddar cheese;",
+          "Lettuce;",
+          "Tomato;",
+          "Pickles;",
+          "Onion;",
+          "House sauce;",
         ],
       },
       {
@@ -69,37 +69,37 @@ const MENU = [
         title: "X-Tailwind",
         price: 29.9,
         description:
-          "Aquele que você não gosta de primeira, mas depois fica viciado e não consegue mais largar...",
+          "The one you don't like at first, but then get addicted and can't let go...",
         cover: require("../../assets/products/cover/4.png"),
         thumbnail: require("../../assets/products/thumbnail/4.png"),
         ingredients: [
-          "Pão brioche;",
-          "2x carnes smash (blend da casa) de 80g;",
-          "Queijo cheddar;",
-          "Alface;",
-          "Tomate;",
-          "Picles;",
-          "Cebola;",
-          "Molho da casa;",
+          "Brioche bun;",
+          "2x house blend smash patties (80g each);",
+          "Cheddar cheese;",
+          "Lettuce;",
+          "Tomato;",
+          "Pickles;",
+          "Onion;",
+          "House sauce;",
         ],
       },
     ],
   },
   {
-    title: "Sobremesa",
+    title: "Desserts",
     data: [
       {
         id: "5",
-        title: "Sorvete com Brownie",
+        title: "Ice Cream with Brownie",
         price: 18.9,
         description:
-          "Uma sobremesa deliciosa para saborear. Escolha o sorvete e a calda que desejar...",
+          "A delicious dessert to savor. Choose the ice cream and topping you desire...",
         cover: require("../../assets/products/cover/5.png"),
         thumbnail: require("../../assets/products/thumbnail/5.png"),
         ingredients: [
           "1x Brownie;",
-          "1x Bola de sorvete a sua escolha",
-          "Escolha sua calda;",
+          "1x Scoop of ice cream of your choice;",
+          "Choose your topping;",
         ],
       },
       {
@@ -107,29 +107,29 @@ const MENU = [
         title: "Cupcake",
         price: 22.9,
         description:
-          "Um delicioso Cupcake para adoçar. Escolha o sabor que você gosta...",
+          "A delightful cupcake to sweeten your day. Choose the flavor you love...",
         cover: require("../../assets/products/cover/6.png"),
         thumbnail: require("../../assets/products/thumbnail/6.png"),
-        ingredients: ["Escolha o sabor;", "Chantilly;"],
+        ingredients: ["Choose the flavor;", "Whipped cream;"],
       },
     ],
   },
   {
-    title: "Bebidas",
+    title: "Beverages",
     data: [
       {
         id: "7",
-        title: "Hmmm, coquinha!",
+        title: "Hmm, Coke!",
         price: 6.9,
         thumbnail: require("../../assets/products/thumbnail/7.png"),
         cover: require("../../assets/products/cover/7.png"),
         description:
-          "Uma coca super gelada para acompanhar o seu super lanche...",
+          "A super cold Coke to accompany your super burger...",
         ingredients: [],
       },
     ],
   },
-]
+];
 
 const PRODUCTS = MENU.map((item) => item.data).flat()
 
