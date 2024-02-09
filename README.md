@@ -38,11 +38,3 @@ npm run test
 
 - Github: [@joaoMarcos777](https://github.com/joaoMarcos777)
 - LinkedIn: [@joaomarcos777](https://linkedin.com/in/joaomarcos777)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
