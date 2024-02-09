@@ -34,7 +34,7 @@ npm run test
 
 ## Author
 
-👤 **João Marcos**
+**João Marcos**
 
 - Github: [@joaoMarcos777](https://github.com/joaoMarcos777)
 - LinkedIn: [@joaomarcos777](https://linkedin.com/in/joaomarcos777)
